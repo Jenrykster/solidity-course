@@ -1,26 +1,32 @@
-import React, { Component } from "react";
-import SimpleStorageContract from "./contracts/SimpleStorage.json";
-import getWeb3 from "./getWeb3";
+import React, { Component } from 'react';
+import ItemManagerContract from './contracts/ItemManager.json';
+import ItemContract from './contracts/Item.json';
+import getWeb3 from './getWeb3';
 
-import "./App.css";
+import './App.css';
 
 class App extends Component {
-  state = { storageValue: 0, web3: null, accounts: null, contract: null };
+  state = {};
 
   componentDidMount = async () => {
     try {
       // Get network provider and web3 instance.
-      const web3 = await getWeb3();
+      this.web3 = await getWeb3();
 
       // Use web3 to get the user's accounts.
-      const accounts = await web3.eth.getAccounts();
+      this.accounts = await this.web3.eth.getAccounts();
 
       // Get the contract instance.
-      const networkId = await web3.eth.net.getId();
-      const deployedNetwork = SimpleStorageContract.networks[networkId];
-      const instance = new web3.eth.Contract(
-        SimpleStorageContract.abi,
-        deployedNetwork && deployedNetwork.address,
+      this.networkId = await this.web3.eth.net.getId();
+      this.itemManager = new web3.eth.Contract(
+        ItemManagerContract.abi,
+        ItemManagerContract.networks[networkId] &&
+          ItemManagerContract.networks[networkId].address
+      );
+      this.item = new web3.eth.Contract(
+        ItemContract.abi,
+        ItemContract.networks[networkId] &&
+          ItemManagerContract.networks[networkId].address
       );
 
       // Set web3, accounts, and contract to the state, and then proceed with an
@@ -29,7 +35,7 @@ class App extends Component {
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(
-        `Failed to load web3, accounts, or contract. Check console for details.`,
+        `Failed to load web3, accounts, or contract. Check console for details.`
       );
       console.error(error);
     }
@@ -53,7 +59,7 @@ class App extends Component {
       return <div>Loading Web3, accounts, and contract...</div>;
     }
     return (
-      <div className="App">
+      <div className='App'>
         <h1>Good to Go!</h1>
         <p>Your Truffle Box is installed and ready.</p>
         <h2>Smart Contract Example</h2>
