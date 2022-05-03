@@ -652,10 +652,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1510,
-                        1511
+                        1587,
+                        1588
                       ],
-                      "referencedDeclaration": 1511,
+                      "referencedDeclaration": 1588,
                       "src": "2563:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -817,10 +817,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1510,
-                        1511
+                        1587,
+                        1588
                       ],
-                      "referencedDeclaration": 1511,
+                      "referencedDeclaration": 1588,
                       "src": "2615:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1030,10 +1030,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1510,
-                        1511
+                        1587,
+                        1588
                       ],
-                      "referencedDeclaration": 1511,
+                      "referencedDeclaration": 1588,
                       "src": "2696:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -1796,7 +1796,7 @@
                       "name": "msg",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 1507,
+                      "referencedDeclaration": 1584,
                       "src": "4223:3:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_magic_message",
@@ -2674,10 +2674,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1510,
-                        1511
+                        1587,
+                        1588
                       ],
-                      "referencedDeclaration": 1511,
+                      "referencedDeclaration": 1588,
                       "src": "5401:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2791,10 +2791,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1510,
-                        1511
+                        1587,
+                        1588
                       ],
-                      "referencedDeclaration": 1511,
+                      "referencedDeclaration": 1588,
                       "src": "5492:7:8",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -2827,7 +2827,7 @@
                     "name": "this",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 1537,
+                    "referencedDeclaration": 1610,
                     "src": "5555:4:8",
                     "typeDescriptions": {
                       "typeIdentifier": "t_contract$_Crowdsale_$1408",
@@ -3620,7 +3620,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1507,
+                          "referencedDeclaration": 1584,
                           "src": "7969:3:8",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -4341,10 +4341,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1510,
-                                1511
+                                1587,
+                                1588
                               ],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1588,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4461,10 +4461,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1510,
-                                1511
+                                1587,
+                                1588
                               ],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1588,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -4631,10 +4631,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1510,
-                                1511
+                                1587,
+                                1588
                               ],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1588,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -5659,7 +5659,7 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 1507,
+                              "referencedDeclaration": 1584,
                               "type": "msg",
                               "value": "msg"
                             },
@@ -6515,10 +6515,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1510,
-                                1511
+                                1587,
+                                1588
                               ],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1588,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -6685,10 +6685,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1510,
-                                1511
+                                1587,
+                                1588
                               ],
-                              "referencedDeclaration": 1511,
+                              "referencedDeclaration": 1588,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -6782,7 +6782,7 @@
                           "overloadedDeclarations": [
                             null
                           ],
-                          "referencedDeclaration": 1537,
+                          "referencedDeclaration": 1610,
                           "type": "contract Crowdsale",
                           "value": "this"
                         },
@@ -7687,7 +7687,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1507,
+                                  "referencedDeclaration": 1584,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -7736,7 +7736,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-05-02T19:55:10.976Z",
+  "updatedAt": "2022-05-03T14:41:15.425Z",
   "devdoc": {
     "details": "Crowdsale is a base contract for managing a token crowdsale, allowing investors to purchase tokens with ether. This contract implements such functionality in its most fundamental form and can be extended to provide additional functionality and/or custom behavior. The external interface represents the basic interface for purchasing tokens, and conforms the base architecture for crowdsales. It is *not* intended to be modified / overridden. The internal interface conforms the extensible and modifiable surface of crowdsales. Override the methods to add functionality. Consider using 'super' where appropriate to concatenate behavior.",
     "methods": {

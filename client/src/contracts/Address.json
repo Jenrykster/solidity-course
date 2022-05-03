@@ -2326,7 +2326,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.7",
-  "updatedAt": "2022-05-02T19:55:10.970Z",
+  "updatedAt": "2022-05-03T12:25:54.015Z",
   "devdoc": {
     "details": "Collection of functions related to the address type",
     "methods": {}
